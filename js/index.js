@@ -24,7 +24,7 @@
   function init() {
     document.querySelectorAll('button[data-rel="flip"]').forEach(btn => { btn.addEventListener('click', flip); });
     document.querySelectorAll('button[data-rel="next"]').forEach(btn => { btn.addEventListener('click', next); });
-    render();
+    next();
   }
 
   init();
