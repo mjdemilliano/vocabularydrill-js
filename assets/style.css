@@ -5,7 +5,7 @@ html, body {
   margin: 10px;
 }
 body {
-  font-family: "Roboto", sans;
+  font-family: "Helvetica", sans-serif;
   font-size: 16pt;
 }
 .word {
@@ -14,7 +14,15 @@ body {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  height: 60vh;
+  height: 50vh;
+}
+.pronounciation {
+  width: 100%;
+  font-size: 20pt;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 10vh;
 }
 footer {
   width: 100%;
@@ -31,11 +39,28 @@ button {
 footer button {
   position: absolute;
   display: block;
-  width: 45%;
+  width: 48%;
 }
 button.left {
   left: 0;
+  color: red;
+  border-color: red;
 }
 button.right {
   right: 0;
+  color: green;
+  border-color: green;
+}
+@media (max-device-width: 480px) {
+  .word {
+    font-size: 110pt;
+  }
+  .pronounciation {
+    font-size: 40pt;
+  }
+  button {
+    font-size: 40pt;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
