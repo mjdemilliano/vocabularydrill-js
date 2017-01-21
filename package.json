@@ -1,0 +1,23 @@
+{
+  "name": "vocabularydrill-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "dependencies": {
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "http-server": "^0.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "webpack": "webpack"
+  },
+  "author": "",
+  "license": "ISC"
+}
