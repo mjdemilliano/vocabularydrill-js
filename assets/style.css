@@ -1,0 +1,41 @@
+html, body {
+  height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 10px;
+}
+body {
+  font-family: "Roboto", sans;
+  font-size: 16pt;
+}
+.word {
+  width: 100%;
+  font-size: 70pt;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 60vh;
+}
+footer {
+  width: 100%;
+  position: relative;
+}
+button {
+  display: block;
+  font-size: 20pt;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 20px;
+  background: none;
+}
+footer button {
+  position: absolute;
+  display: block;
+  width: 45%;
+}
+button.left {
+  left: 0;
+}
+button.right {
+  right: 0;
+}
