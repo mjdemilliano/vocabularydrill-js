@@ -12,9 +12,9 @@ body {
   width: 100%;
   font-size: 70pt;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 180px;
   margin-bottom: 50px;
-  height: 50vh;
+  height: 40vh;
 }
 .pronounciation {
   width: 100%;
@@ -61,10 +61,10 @@ nav.menu {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 200px;
+  width: 250px;
   background-color: white;
   z-index: 20;
-  transform: translateX(-200px);
+  transform: translateX(-250px);
 }
 nav.menu ul {
   list-style-type: none;
@@ -97,5 +97,17 @@ nav a:hover {
     font-size: 40pt;
     padding-top: 50px;
     padding-bottom: 50px;
+    min-width: 150px;
+  }
+  nav.menu {
+    width: 100%;
+    transform: translateX(-100%);
+  }
+  nav li {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  nav a {
+    font-size: 60pt;
   }
 }
