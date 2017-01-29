@@ -51,6 +51,41 @@ button.right {
   color: green;
   border-color: green;
 }
+button.menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+nav.menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  background-color: white;
+  z-index: 20;
+  transform: translateX(-200px);
+}
+nav.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+nav.menu li {
+  display: block;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: blue;
+}
 @media (max-device-width: 480px) {
   .word {
     font-size: 110pt;

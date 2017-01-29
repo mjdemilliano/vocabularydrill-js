@@ -47,11 +47,23 @@
 	"use strict";
 	
 	(function () {
-	  var cards = __webpack_require__(1);
+	  var cardSets = {
+	    persian: __webpack_require__(1),
+	    russian: __webpack_require__(2)
+	  };
+	  var cards;
 	  var icard = 0;
 	  var flipstate = 0;
 	  var wordElement = document.querySelector(".word");
 	  var pronounciationElement = document.querySelector(".pronounciation");
+	  var menuElement = document.querySelector('nav.menu');
+	  var menuButton = document.querySelector('button.menu');
+	
+	  function loadCardSet(cardSet) {
+	    cards = cardSets[cardSet];
+	    icard = 0;
+	    next();
+	  }
 	
 	  function render() {
 	    wordElement.innerHTML = cards[icard][flipstate === 0 ? 'a' : 'b'];
@@ -69,6 +81,14 @@
 	    render();
 	  }
 	
+	  function openMenu() {
+	    menuElement.style.transform = 'translateX(0px)';
+	  }
+	
+	  function closeMenu() {
+	    menuElement.style.transform = 'translateX(-200px)';
+	  }
+	
 	  function init() {
 	    document.querySelectorAll('button[data-rel="flip"]').forEach(function (btn) {
 	      btn.addEventListener('click', flip);
@@ -76,7 +96,24 @@
 	    document.querySelectorAll('button[data-rel="next"]').forEach(function (btn) {
 	      btn.addEventListener('click', next);
 	    });
-	    next();
+	    loadCardSet('persian');
+	
+	    // Menu.
+	    menuButton.addEventListener('click', function (event) {
+	      openMenu();
+	      event.stopPropagation();
+	      event.preventDefault();
+	    });
+	    menuElement.addEventListener('click', function (event) {
+	      var cardSet = event.target.dataset.cardSet;
+	      loadCardSet(cardSet);
+	      event.preventDefault();
+	      event.stopPropagation();
+	      closeMenu();
+	    });
+	    document.addEventListener('click', function (event) {
+	      closeMenu();
+	    });
 	  }
 	
 	  init();
@@ -374,6 +411,19 @@
 			"p": "mosāvi ŝodim",
 			"b": "we drew (lit: we became equal)",
 			"r": "Colloquial Persian - Unit 4"
+		}
+	];
+
+/***/ },
+/* 2 */
+/***/ function(module, exports) {
+
+	module.exports = [
+		{
+			"a": "случай",
+			"p": "",
+			"b": "case",
+			"r": "Stefan"
 		}
 	];
 
