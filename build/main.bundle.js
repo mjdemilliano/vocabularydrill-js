@@ -86,7 +86,7 @@
 	  }
 	
 	  function closeMenu() {
-	    menuElement.style.transform = 'translateX(-200px)';
+	    menuElement.style.transform = '';
 	  }
 	
 	  function init() {
