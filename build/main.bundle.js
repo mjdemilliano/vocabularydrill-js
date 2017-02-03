@@ -125,6 +125,168 @@
 
 	module.exports = [
 		{
+			"a": "شذبه",
+			"p": "ŝanbe",
+			"b": "Saturday",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "یکشنبه",
+			"p": "yek-ŝanbe",
+			"b": "Sunday",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "دوشنبه",
+			"p": "do-ŝanbe",
+			"b": "Monday",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "سهشنبه",
+			"p": "se-ŝanbe",
+			"b": "Tuesday",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "چهارشنبه",
+			"p": "c(ah)ār-ŝanbe",
+			"b": "Wednesday",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "پنجشنبه",
+			"p": "panj-ŝanbe",
+			"b": "Thursday",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "جمعه",
+			"p": "jom`e",
+			"b": "Friday",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "آخر",
+			"p": "āxar",
+			"b": "end",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "هفته",
+			"p": "hafte",
+			"b": "week",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "آخر هفته",
+			"p": "āxar-e hafte",
+			"b": "weekend",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "خوش",
+			"p": "xoŝ",
+			"b": "pleasant(ly)",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "گذشتن (گذر)",
+			"p": "gozaŝtan (gozar)",
+			"b": "to pass",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "بله",
+			"p": "bale",
+			"b": "yes",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "جا",
+			"p": "jā",
+			"b": "place",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "جاتون",
+			"p": "jātun",
+			"b": "your place",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "خالی",
+			"p": "xāli",
+			"b": "vacant",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "بودن",
+			"p": "budan",
+			"b": "to be",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "خوب",
+			"p": "xob",
+			"b": "so",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "چهکار",
+			"p": "ce-kār",
+			"b": "what activity",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "کردن",
+			"p": "kardan",
+			"b": "to do",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "کجا",
+			"p": "kojā",
+			"b": "where",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "رفتن",
+			"p": "raftan",
+			"b": "to go",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "شب",
+			"p": "ŝab",
+			"b": "night, eve",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "سینما",
+			"p": "sinemā",
+			"b": "cinema",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "یک",
+			"p": "yek",
+			"b": "one, a, an",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "فیلم",
+			"p": "film",
+			"b": "film",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "ایرانی",
+			"p": "irāni",
+			"b": "Iranian",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
 			"a": "تعریف",
 			"p": "ta`rif",
 			"b": "compliment",
