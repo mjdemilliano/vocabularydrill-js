@@ -114,6 +114,15 @@
 	    document.addEventListener('click', function (event) {
 	      closeMenu();
 	    });
+	
+	    // Navigation by keys.
+	    document.addEventListener('keydown', function (event) {
+	      if (event.keyCode === 39) {
+	        next();
+	      } else if (event.keyCode === 32) {
+	        flip();
+	      }
+	    });
 	  }
 	
 	  init();
@@ -124,6 +133,456 @@
 /***/ function(module, exports) {
 
 	module.exports = [
+		{
+			"a": "زن",
+			"p": "zan",
+			"b": "woman",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "نه",
+			"p": "na",
+			"b": "no",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "ملّیّت",
+			"p": "melliyat",
+			"b": "nationality",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "چی",
+			"p": "ci",
+			"b": "what",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "چیه",
+			"p": "cie",
+			"b": "what's",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "بریتانیایی",
+			"p": "beritāniāyi",
+			"b": "British",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "متاٌهّل",
+			"p": "mota`ahhel",
+			"b": "married",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "بله",
+			"p": "bale",
+			"b": "yes",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "خانم",
+			"p": "xānom",
+			"b": "wife, madam",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "کجا",
+			"p": "kojā",
+			"b": "where",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "کجایی",
+			"p": "kojāyi",
+			"b": "where from",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "هم",
+			"p": "ham",
+			"b": "too, also",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "محلّ",
+			"p": "mahall",
+			"b": "place, location",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "کجاست",
+			"p": "kojāst",
+			"b": "where's",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "لندن",
+			"p": "landan",
+			"b": "London",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "سرگرمی",
+			"p": "sargarmi",
+			"b": "hobby",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "سرگرمیها",
+			"p": "sargarmihā",
+			"b": "hobbies",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "موسیقی",
+			"p": "musiqi",
+			"b": "music",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "ورزش",
+			"p": "varzeŝ",
+			"b": "sport",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "مطالهه",
+			"p": "motāle`e",
+			"b": "reading",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "کار",
+			"p": "kār",
+			"b": "job, work",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "گارمند",
+			"p": "kārmand",
+			"b": "(civil) servant",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "خیابان",
+			"p": "xiābān",
+			"b": "street",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "پالک",
+			"p": "pelāk",
+			"b": "(house) number",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "نخستوزیر",
+			"p": "noxost-vazir",
+			"b": "Prime Minister",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "متشکّر",
+			"p": "mot(a)ŝakker",
+			"b": "thankful, grateful",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "آقای",
+			"p": "āqā-ye",
+			"b": "Mr.",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "همکار",
+			"p": "hamkār",
+			"b": "colleague",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "ایشون",
+			"p": "iŝun",
+			"b": "he, she (pol)",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "خوشوقت",
+			"p": "xoŝvaqt",
+			"b": "pleased",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "آپارتمان",
+			"p": "āpārtemān",
+			"b": "apartment, flat",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "قشنگ",
+			"p": "qaŝang",
+			"b": "nice, pretty",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "دارید",
+			"p": "dārid",
+			"b": "you have",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "داشتن (دار)",
+			"p": "dāŝtan (dār)",
+			"b": "to have",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "لطف",
+			"p": "lotf",
+			"b": "kindness",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۰",
+			"p": "طفر - sefr",
+			"b": "0",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱",
+			"p": "یک - yek",
+			"b": "1",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۲",
+			"p": "دو - do",
+			"b": "2",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۳",
+			"p": "سه - se",
+			"b": "3",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۴",
+			"p": "چهار - c(ah)ār",
+			"b": "4",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۵",
+			"p": "پنج - panj",
+			"b": "5",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۶",
+			"p": "شش - ŝeŝ",
+			"b": "6",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۷",
+			"p": "هفت - haft",
+			"b": "7",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۸",
+			"p": "هشت - haŝt",
+			"b": "8",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۹",
+			"p": "هن - no",
+			"b": "9",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۰",
+			"p": "ده - dah",
+			"b": "10",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۱",
+			"p": "یازده - yāzdah",
+			"b": "11",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۲",
+			"p": "دوازده - davāzdah",
+			"b": "12",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۳",
+			"p": "سیزده - sizdah",
+			"b": "13",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۴",
+			"p": "چهارده - c(ah)ārdah",
+			"b": "14",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۵",
+			"p": "پانزده - pānzdah (punzdah)",
+			"b": "15",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۶",
+			"p": "شانزده - ŝānzdah (ŝunzdah)",
+			"b": "16",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۷",
+			"p": "هفده - hefdah (hivdah)",
+			"b": "17",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۸",
+			"p": "هجده - hejdah (hiĝdah)",
+			"b": "18",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۹",
+			"p": "نوزده - nuzdah",
+			"b": "19",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۲۰",
+			"p": "بیست - bist",
+			"b": "20",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۲۱",
+			"p": "بیست و یک - bist o yek",
+			"b": "21",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۳۰",
+			"p": "سی - si",
+			"b": "30",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۴۰",
+			"p": "چهل - c(eh)el",
+			"b": "40",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۵۰",
+			"p": "پنجاه - panjāh",
+			"b": "50",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۶۰",
+			"p": "شطت - ŝast",
+			"b": "60",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۷۰",
+			"p": "هفتاد - haftād",
+			"b": "70",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۸۰",
+			"p": "هشتاد - haŝtad",
+			"b": "80",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۹۰",
+			"p": "نود - navad",
+			"b": "90",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۰۰",
+			"p": "طد - sad",
+			"b": "100",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۲۰۰",
+			"p": "دویست - devist (divist)",
+			"b": "200",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۳۰۰",
+			"p": "سیطد - sisad",
+			"b": "300",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۴۰۰",
+			"p": "چهارطد - c(ah)ārsad",
+			"b": "400",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۵۰۰",
+			"p": "پانطد",
+			"b": "pānsad (punsad)",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۶۰۰",
+			"p": "ششطد - ŝeŝsad",
+			"b": "600",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۷۰۰",
+			"p": "هفتطد - haf(t)sad",
+			"b": "700",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۸۰۰",
+			"p": "هشتطد - haŝ(t)sad",
+			"b": "800",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۹۰۰",
+			"p": "نهطد - nohsad",
+			"b": "900",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۰۰۰",
+			"p": "هزار - hezār",
+			"b": "1,000",
+			"r": "Colloquial Persian - Unit 3"
+		},
+		{
+			"a": "۱۰۰۰۰۰۰",
+			"p": "میلیون - milyun",
+			"b": "1,000,000",
+			"r": "Colloquial Persian - Unit 3"
+		},
 		{
 			"a": "شذبه",
 			"p": "ŝanbe",
@@ -284,6 +743,132 @@
 			"a": "ایرانی",
 			"p": "irāni",
 			"b": "Iranian",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "دیدن",
+			"p": "didan",
+			"b": "to see",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "خوب",
+			"p": "xub",
+			"b": "good",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "کمدی",
+			"p": "komedi",
+			"b": "comedy",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "خیلی",
+			"p": "xeili",
+			"b": "a lot, very",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "خندیدن",
+			"p": "xandidan",
+			"b": "to laugh",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "بعد از ظهر",
+			"p": "ba`d-az-zohr",
+			"b": "afternoon",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "مهمون",
+			"p": "mehmun",
+			"b": "guest",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "جشن",
+			"p": "jaŝn",
+			"b": "celebration",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "تولّد",
+			"p": "tavallod",
+			"b": "birth(day)",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "پسر",
+			"p": "pesar",
+			"b": "son, boy",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "بهبه!",
+			"p": "bah-bah!",
+			"b": "wow!",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "مبارک",
+			"p": "mobārak",
+			"b": "blessed",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "ممنون",
+			"p": "mamnun",
+			"b": "(I'm) grateful, thank you",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "غذا",
+			"p": "qazā",
+			"b": "food",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "چطور",
+			"p": "cetour",
+			"b": "how",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "عالی",
+			"p": "āli",
+			"b": "excellent",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "دستپخت",
+			"p": "dast-poxt",
+			"b": "cooking, cuisine",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "شوهر",
+			"p": "ŝouhar",
+			"b": "husband",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "البته",
+			"p": "albatte",
+			"b": "of course",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "بدون",
+			"p": "bedun-e",
+			"b": "without",
+			"r": "Colloquial Persian - Unit 4"
+		},
+		{
+			"a": "شک",
+			"p": "ŝak",
+			"b": "doubt",
 			"r": "Colloquial Persian - Unit 4"
 		},
 		{

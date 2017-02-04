@@ -62,6 +62,15 @@
     document.addEventListener('click', event => {
       closeMenu();
     });
+
+    // Navigation by keys.
+    document.addEventListener('keydown', event => {
+      if (event.keyCode === 39) {
+        next();
+      } else if (event.keyCode === 32) {
+        flip();
+      }
+    });
   }
 
   init();
