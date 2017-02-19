@@ -134,6 +134,528 @@
 
 	module.exports = [
 		{
+			"a": "سلام",
+			"p": "salām",
+			"b": "hello",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "صبح",
+			"p": "sob(h)",
+			"b": "morning",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "بهخیر",
+			"p": "be-xeir",
+			"b": "may it be good",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "صبح بهخیر",
+			"p": "sob(h) be-xeir",
+			"b": "good morning",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "خدا",
+			"p": "xodā",
+			"b": "God",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "حافظ",
+			"p": "hāfez",
+			"b": "protector",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "خدا حافظ",
+			"p": "xodā hāfez",
+			"b": "goodbye",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "روز",
+			"p": "ruz",
+			"b": "day",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "ظهر",
+			"p": "zohr",
+			"b": "noon",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "عصر",
+			"p": "asr",
+			"b": "(late) afternoon",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "سفر",
+			"p": "safar",
+			"b": "journey",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "بفرمایید",
+			"p": "befarmāyid",
+			"b": "go ahead / what can I do for you?",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "ببخشید",
+			"p": "bebaxŝid",
+			"b": "sorry, forgive me",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "تلفن",
+			"p": "telefon",
+			"b": "telephone (call)",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "مرسی",
+			"p": "mersi",
+			"b": "thanks",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "الو",
+			"p": "alou",
+			"b": "hello (telephone)",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "دکتر",
+			"p": "doktor",
+			"b": "doctor",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "ایشون",
+			"p": "iŝun",
+			"b": "s/he (polite), they",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "خانمِ",
+			"p": "xānom-e",
+			"b": "Ms/Mrs",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "پیغام",
+			"p": "peiqām",
+			"b": "message",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "هدیه",
+			"p": "hedye",
+			"b": "present, gift",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "بسته",
+			"p": "baste",
+			"b": "parcel, gift",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "بلیت",
+			"p": "belit",
+			"b": "ticket",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "من",
+			"p": "man",
+			"b": "I",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "تو",
+			"p": "to",
+			"b": "you (inf.)",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "او",
+			"p": "u",
+			"b": "he, she",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "آن",
+			"p": "ān",
+			"b": "it, that",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "ما",
+			"p": "mā",
+			"b": "we",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "شما",
+			"p": "ŝomā",
+			"b": "you (formal, pl.)",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "آنها",
+			"p": "ānhā",
+			"b": "they",
+			"r": "Colloquial Persian - Unit 1"
+		},
+		{
+			"a": "جان",
+			"p": "jān",
+			"b": "dear",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "چطوری",
+			"p": "ceto(u)ri",
+			"b": "how're you (inf.)",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "نیستم",
+			"p": "nistam",
+			"b": "I'm not",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "چطورند",
+			"p": "ceto(u)rand",
+			"b": "how's s/he (formal)",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "مامان",
+			"p": "māmān",
+			"b": "mum, mom",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "خوبند",
+			"p": "xuband",
+			"b": "s/he's well (formal)",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "خانواده",
+			"p": "xānevāde",
+			"b": "family",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "همه",
+			"p": "hame",
+			"b": "all",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "کم",
+			"p": "kam",
+			"b": "little",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "جسته",
+			"p": "xaste",
+			"b": "tired",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "زندگی",
+			"p": "zendegi",
+			"b": "life",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "تنبل",
+			"p": "tanbal",
+			"b": "lazy",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "فعلاً",
+			"p": "fe'lan",
+			"b": "for now",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "خوش حال",
+			"p": "xoŝ-hāl",
+			"b": "happy",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "اینجا",
+			"p": "injā",
+			"b": "here",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "گرسنه",
+			"p": "gorosne",
+			"b": "hungry",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "چرا",
+			"p": "cerā",
+			"b": "why",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "چند",
+			"p": "cand",
+			"b": "how many",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "کِی",
+			"p": "kei",
+			"b": "when",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "کدوم",
+			"p": "kodum",
+			"b": "which",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "چگونه",
+			"p": "cegune",
+			"b": "how (lit.)",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "کو",
+			"p": "ku",
+			"b": "where is it? (col.)",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "چند تا",
+			"p": "cand tā",
+			"b": "how many (col.)",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "چند وقت",
+			"p": "cand vaqt",
+			"b": "how long",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "چقدر",
+			"p": "ceqadr",
+			"b": "how much",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "اسم",
+			"p": "esm",
+			"b": "name",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "چی",
+			"p": "ci",
+			"b": "what",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "چیه",
+			"p": "cie",
+			"b": "what's",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "خوشوقت",
+			"p": "xoŝ-vaqt",
+			"b": "pleased",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "حال",
+			"p": "hāl",
+			"b": "health",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "این",
+			"p": "in",
+			"b": "this",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "آقا",
+			"p": "āqā",
+			"b": "sir, gentleman",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "کی",
+			"p": "ki",
+			"b": "who",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "اون",
+			"p": "un",
+			"b": "that",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "پدر",
+			"p": "pedar",
+			"b": "father",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "ماشاءاللّ'",
+			"p": "māŝā(a)llāh",
+			"b": "May God preserve him",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "خوشتیپ",
+			"p": "xoŝ-tib",
+			"b": "handsome",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "خانم",
+			"p": "xanom",
+			"b": "lady",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "مادر",
+			"p": "mādar",
+			"b": "mother",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "کامپیوتر",
+			"p": "kāmpiuter",
+			"b": "computer",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "آدرس",
+			"p": "ādres",
+			"b": "address",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "شماره تلفن",
+			"p": "ŝomāre telefon",
+			"b": "telephone number",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "تاریخ",
+			"p": "tārix",
+			"b": "date",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "تارخ تولّد",
+			"p": "tārix-e tavallod",
+			"b": "date of birth",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "و",
+			"p": "va (col. o)",
+			"b": "and",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "بابا",
+			"p": "bābā",
+			"b": "dad",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "ماشین",
+			"p": "māŝin",
+			"b": "car",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "مو",
+			"p": "mu",
+			"b": "hair",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "لباس",
+			"p": "lebās",
+			"b": "clothes, dress",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "بو",
+			"p": "bu",
+			"b": "smell",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "خونه",
+			"p": "xune",
+			"b": "house",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "بد",
+			"p": "bad",
+			"b": "bad",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "بلند",
+			"p": "boland",
+			"b": "long",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "بزرگ",
+			"p": "bozorg",
+			"b": "large",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "مشکی",
+			"p": "meŝki",
+			"b": "black",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "بور",
+			"p": "bur",
+			"b": "blond(e)",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
+			"a": "شیک",
+			"p": "ŝik",
+			"b": "chic",
+			"r": "Colloquial Persian - Unit 2"
+		},
+		{
 			"a": "زن",
 			"p": "zan",
 			"b": "woman",
@@ -170,7 +692,7 @@
 			"r": "Colloquial Persian - Unit 3"
 		},
 		{
-			"a": "متاٌهّل",
+			"a": "متأهّل",
 			"p": "mota`ahhel",
 			"b": "married",
 			"r": "Colloquial Persian - Unit 3"
@@ -718,7 +1240,7 @@
 		{
 			"a": "شب",
 			"p": "ŝab",
-			"b": "night, eve",
+			"b": "night, evening",
 			"r": "Colloquial Persian - Unit 4"
 		},
 		{
@@ -908,8 +1430,8 @@
 			"r": "Colloquial Persian - Unit 4"
 		},
 		{
-			"a": "مگه",
-			"p": "mage",
+			"a": "اما، مگه",
+			"p": "ammā, mage",
 			"b": "but",
 			"r": "Colloquial Persian - Unit 4"
 		},
